@@ -53,6 +53,11 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'Hello world!',
             ),
+            Container(
+              height: 200,
+              width: 300,
+              color: Colors.red,
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
