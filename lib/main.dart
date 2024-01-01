@@ -55,8 +55,13 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Container(
               height: 200,
-              width: 300,
+              width: 320,
               color: Colors.red,
+            ),
+            Container(
+              height: 200,
+              width: 320,
+              color: Colors.yellow,
             ),
             Text(
               '$_counter',
